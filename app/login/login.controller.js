@@ -1,9 +1,4 @@
-/**
- * Created by Konrad on 01.04.2017.
- */
-
-
-(function () {
+﻿(function () {
     'use strict';
 
     angular
@@ -36,4 +31,3 @@
     }
 
 })();
-

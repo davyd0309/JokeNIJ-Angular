@@ -1,17 +1,12 @@
-/**
- * Created by Judyta on 27.05.2017.
- */
-
-
-(function () {
+﻿(function () {
     'use strict';
 
     angular
         .module('app')
-        .factory('UserServiceLocal', UserServiceLocal);
+        .factory('UserService', UserService);
 
-    UserServiceLocal.$inject = ['$timeout', '$filter', '$q'];
-    function UserServiceLocal($timeout, $filter, $q) {
+    UserService.$inject = ['$timeout', '$filter', '$q'];
+    function UserService($timeout, $filter, $q) {
 
         var service = {};
 

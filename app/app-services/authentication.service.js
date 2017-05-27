@@ -1,8 +1,4 @@
-/**
- * Created by Judyta on 27.05.2017.
- */
-
-(function () {
+﻿(function () {
     'use strict';
 
     angular
