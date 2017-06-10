@@ -8,19 +8,23 @@
 </head>
 <body>
     <div class="jumbotron">
-        <div class="container">
+        <div class="container" >
             <div class="col-sm-8 col-sm-offset-2">
                 <div ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }" ng-if="flash" ng-bind="flash.message"></div>
+
+                <div id="logo" class="credits text-center">
+
+                    <h1>Joke NIJ</h1>
+
+                </div>
+                <br><br>
                 <div ng-view></div>
             </div>
         </div>
     </div>
     <div class="credits text-center">
         <p>
-            <a href="http://jasonwatmore.com/post/2015/03/10/angularjs-user-registration-and-login-example-tutorial">AngularJS User Registration and Login Example</a>
-        </p>
-        <p>
-            <a href="http://jasonwatmore.com">JasonWatmore.com</a>
+            <a href="http://dawydiuk.pl" target="_blank">Made by Konrad Dawydiuk 2017</a>
         </p>
     </div>
 
